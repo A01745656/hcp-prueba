@@ -29,7 +29,7 @@ def main():
   A=np.array(Matriz1)
   B=np.array(Filtro)
   C =np.zeros((2,2))
-  C = convolucion(A,B)
+  C =np.array(convolucion(A,B))
   print (C)
     
 main()
